@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Merriweather:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <header id="subir">
+        <nav class="navbar navbar-expand-lg bg-color bs-font">
+          <div class="container-fluid">
+          <img src="imagenes/dadart0.png"alt="logo"></div>
+            <div class="container">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="quienes-somos.html">QUIENES SOMOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="colecciones.html">COLECCIONES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="merchandising.html">SHOP</a>
+                  </li>
+                   <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">CONTACTO</a>
+                </li>
+                  
+              </div>
+            </div>
+          </nav>
+          
+            <div class="container-fluid">
+                <h4 class="py-5">Para visitar la exhibición permanente y la sala de muestras temporales,</p><p>por favor seleccioná el día y horario para visitar el Museo.</p> <p> Podés recorrerlo de forma autónoma con la audioguía.</p>
+          <h2 class="">VISITAS INDIVIDUALES<span class="my-3"><img src="imagenes/linea-horizontal.png" alt=""></h2>
+            <p>Para poder reservar tu turno a la <strong>"exhibición permanente"</strong>, completá el siguiente formulario.<br><br>Por favor, revisá el protocolo y tené presente todas las medidas de seguridad necesarias.</p>
+            <div class="col-12">
+
+                <form role="form" id="inscription-form" method="post" novalidate="novalidate">
+    
+                  <input class="booking-id" name="booking-id" type="hidden" value="">
+    
+                  <input id="tickets-per-person" name="tickets-per-person" type="hidden" value="">
+    
+                  <input id="h-place" name="h-place" type="hidden" value="">
+                  
+                  <input id="h-readable-start" name="h-readable-start" type="hidden" value="">
+    
+                  <input id="h-readable-end" name="h-readable-end" type="hidden" value="">
+    
+                  <div class="form-group">
+    
+                    <label class="text-uppercase text-medium" for="inscription-name">NOMBRE / NAME:</label>
+    
+                    <input type="text" class="form-control w-50" name="inscription-name" id="inscription-name" placeholder="">
+    
+                  </div>
+    
+                  <div class="form-group">
+    
+                    <label class="text-uppercase text-medium" for="inscription-surname">APELLIDO / SURNAME:</label>
+    
+                    <input type="text" class="form-control w-50" name="inscription-surname" id="inscription-surname" placeholder="">
+    
+                  </div>
+    
+                  <div class="form-group">
+    
+                    <label class="text-uppercase text-medium" for="inscription-email">EMAIL:</label>
+    
+                    <input type="text" class="form-control w-50" name="inscription-email" id="inscription-email" placeholder="email">
+    
+                  </div>
+    
+                  <div class="form-group">
+    
+                    <label class="text-uppercase text-medium" for="inscription-phone">TELÉFONO / PHONE:</label>
+    
+                    <input type="number" class="form-control w-50" name="inscription-phone" id="inscription-phone" placeholder="Utilizar solamente números">
+    
+                  </div>
+    
+                  <div class="form-group">
+    
+                    <label class="text-uppercase text-medium" for="inscription-dni">DNI O PASAPORTE / PASSPORT :</label>
+    
+                    <input type="text" class="form-control w-50" name="inscription-dni" id="inscription-dni" placeholder="No utilizar puntos ni espacios">
+    
+                  </div>
+    
+                  <fieldset>
+    
+                    <legend>Indica el motivo de la visita</legend>
+    
+                    <p><strong>¿Cuál es el motivo de la visita?</strong></p>
+    
+                    <div class="form-group">
+    
+                      <div class="custom-control custom-radio">
+    
+                        <input type="radio" id="turismo" name="visit-reason" class="custom-control-input" value="turismo">
+    
+                        <label class="custom-control-label" for="turismo">Turismo</label>
+    
+                      </div>
+    
+                      <div class="custom-control custom-radio">
+    
+                        <input type="radio" id="investigacion" name="visit-reason" class="custom-control-input" value="investigacion">
+    
+                        <label class="custom-control-label" for="investigacion">Investigación o estudios en la temática</label>
+    
+                      </div>
+    
+                      <div class="custom-control custom-radio">
+    
+                        <input type="radio" id="interes" name="visit-reason" class="custom-control-input" value="interes">
+    
+                        <label class="custom-control-label" for="interes">Interés en el tema</label>
+    
+                      </div>
+    
+                      <div class="custom-control custom-radio">
+    
+                        <input type="radio" id="otra" name="visit-reason" class="custom-control-input" value="otra">
+    
+                        <label class="custom-control-label" for="otra">otra</label>
+    
+                      </div>
+    
+                      <div class="visit-reason-error"></div>
+    
+                    </div>
+    
+                  </fieldset>
+    
+                  <fieldset>
+    
+                    <legend>Indicar como se enteró del museo</legend>
+    
+                    <p><strong>¿Cómo conociste el Museo Dadart?</strong></p>
+    
+                    <div class="form-group">
+    
+                      <div class="custom-control custom-radio">
+    
+                        <input type="radio" id="s-newsletter" name="about-museum" class="custom-control-input" value="s-newsletter">
+    
+                        <label class="custom-control-label" for="s-newsletter">Newsletter</label>
+    
+                      </div>
+    
+                      <div class="custom-control custom-radio ">
+    
+                        <input type="radio" id="web" name="about-museum" class="custom-control-input" value="web">
+    
+                        <label class="custom-control-label" for="web">web</label>
+    
+                      </div>
+    
+                      <div class="custom-control custom-radio ">
+    
+                        <input type="radio" id="Facebook" name="about-museum" class="custom-control-input" value="Facebook">
+    
+                        <label class="custom-control-label" for="Facebook">Facebook</label>
+    
+                      </div>
+    
+                      <div class="custom-control custom-radio ">
+    
+                        <input type="radio" id="Twitter" name="about-museum" class="custom-control-input" value="Twitter">
+    
+                        <label class="custom-control-label" for="Twitter">Twitter</label>
+    
+                      </div>
+    
+                      <div class="custom-control custom-radio ">
+    
+                        <input type="radio" id="friend" name="about-museum" class="custom-control-input" value="Amigo / Conocido">
+    
+                        <label class="custom-control-label" for="friend">Amigo / Conocido</label>
+    
+                      </div>
+    
+                      <div class="custom-control custom-radio ">
+    
+                        <input type="radio" id="teacher" name="about-museum" class="custom-control-input" value="Profesor">
+    
+                        <label class="custom-control-label" for="teacher">Profesor</label>
+    
+                      </div>
+    
+                      <div class="custom-control custom-radio ">
+    
+                        <input type="radio" id="new" name="about-museum" class="custom-control-input" value="Noticias">
+    
+                        <label class="custom-control-label" for="new">Noticias</label>
+    
+                      </div>
+    
+                      <div class="about-museum-error"></div>
+    
+                      <button type="submit" class="btn btn-dark">RESERVÁ TU TURNO</button>
+    
+                    </div>
+    
+                  </fieldset>
+                  </div>
+                  </div>
+                  <div class="py-2"></div>
+                </form></div></div>
+                <div class="py-5"></div>
+                <div class="header">
+                    <img src="imagenes/linea-horizontal.png" alt="">
+                </div>
+    <div class="container-fluid">
+    <div name="cómo-llegar" data-unique="cómo-llegar"></div>
+    <h2>CÓMO LLEGAR</h2>
+    <div name="" data-unique=""></div>
+    <h3></h3>
+    <p></p>
+    <p><div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13138.486257184755!2d-58.44505252017285!3d-34.58844097228421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb215c01e823%3A0x1ee05259cb4ad719!2sEspacio%20ARTE!5e0!3m2!1ses!2sar!4v1669862496754!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"frameborder="0" style="border: 0;" width="100%" height="450" class="embed-responsive-item"></iframe></div></p>
+    <p><strong>Museo Dadart</strong></p>
+    <p>Camargo 1020<br>Ciudad Autónoma de Buenos Aires, Argentina<br>+54 11-2454-5152<br><a href="mailto:sollabado@hotmail.com" target="_blank" rel="noopener"></a><strong><a href="mailto:sollabado@hotmail.com" target="_blank" rel="noopener">sollabado@hotmail.com</a></strong></p>
+    <div name="2" data-unique="2"></div>
+    <h2><strong></strong></h2>
+    <div name="horarios-" data-unique="horarios-"></div>
+    <h2><strong>HORARIOS</strong></h2>
+    <ul>
+        <li>Martes a viernes, de 11.00 a 20.00.</li>
+        <li>Sábados y domingos, de 10.00 a 20.00</li>
+        <li>Lunes: cerrado.</li>
+        </ul>
+        <p>El Museo permanece cerrado al público los días 1.º y 18 de mayo, 24, 25 y 31 de diciembre de 2022, y 1.º de enero de 2023.</p>
+        <p>La <strong>entrada </strong>es siempre<strong> libre y gratuita</strong>, sin reserva.</p></div>
+        <div class="container p-4"></div>
+
+        <div id="botoncito"><p><a href="#subir">SUBIR</a></p></div>
+        <footer>
+          <section class="contact" id="contact">
+            <div class="main-contact">
+              <div class="contact-content my-sm-9">
+                <li><a href="https://www.instagram.com/sol_labado/"><img src="imagenes/instagram.png" alt=""></a></li>
+                <li><a href="https://www.behance.net/soollabado"><img src="imagenes/behance.png" alt=""></a>
+                </li>
+                <li><a href="mailto:sollabado@hotmail.com"><img src="imagenes/mail.png" alt=""></a></li>
+                <li><a href="https://wa.me/+541124545152"style="text-decoration:none"><img src="imagenes/telefono.png" alt=""></a></li>
+              </div>
+        
+            </div>
+          
+              <div class="action">
+                <form>
+                  <h5 class="text-light col-lg-10">Suscribite al Newsletter</h5>
+                  <input type="email" name="email" placeholder="Tu Email" required>
+                  <input type="submit" name="submit" value="Suscribite" required>
+                </form>
+              </div>
+            </section>
+            <div class="last">
+              <p>© 2022 Sol Labado G. | Diseño Web DGM4AP</p>
+            </div>
+          </footer>
+        <script src="js/script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script
+</body>
+</html>
